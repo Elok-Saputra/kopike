@@ -1,0 +1,34 @@
+@font-face {
+    src: url(fonts/cunia.ttf);
+    font-family: cunia;
+}
+
+body {
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+.header-logo {
+    
+    padding: 5px 25px;
+    float: left;
+}
+.header-list li {
+    padding: 10px 40px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    list-style: none;
+    float: left;
+    color: #6E492F;
+    font-size: 20px;
+    font-weight: bold;   
+}
