@@ -1,25 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     src: url(fonts/cunia.ttf);
     font-family: cunia;
 }
 
 body {
-    font-family: 'Segoe UI';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url(./IMAGES/pexels-verschoren-maurits-3756728.jpg);
+    background-size: cover;
+    opacity: 0.85;
 }
 header {
     width: 100%;
     height: 60px;
-    top: 0;
-    left: 0;
+    background-color: rgba(249,224,174,0.6);
 }
 .header-logo {
-    
-    padding: 5px 25px;
+    width: 125px;
+    margin: 0 15px;
+    padding: 15px 0 14px 30px;
     float: left;
 }
+.header-logo:hover {
+    cursor: pointer;
+    background-color: rgba(252, 134, 33, 0.5);
+}
 .header-list li {
-    padding: 10px 40px;
+    
+    padding: 19px 40px;
+     
 }
 ul {
     display: flex;
@@ -28,7 +44,38 @@ ul {
 li {
     list-style: none;
     float: left;
-    color: #6E492F;
+    color: #c24914;
     font-size: 20px;
-    font-weight: bold;   
+    font-weight: bold;
+      
+}
+li:hover {
+    color: #682c0e;
+    cursor: pointer;
+    background-color: rgba(252, 134, 33, 0.5);
+}
+.top-wrapper {
+    width: 100%;
+    height: 550px;
+    
+}
+.container {
+    text-align: center;
+    padding: 150px 20px;
+}
+.container h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.container p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.txKopike {
+    font-family: cunia;
+    color: #682c0e;
+}
+.txProduct {
+    color: #fc8621;
 }
