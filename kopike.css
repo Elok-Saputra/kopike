@@ -128,7 +128,7 @@ button:focus {
     padding: 50px 20px 10px 20px;
     font-size: 36px;
     color: #682c0e;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    border-bottom: 1px solid #682c0e;
     margin-bottom: 50px;
     
 }
@@ -137,7 +137,7 @@ button:focus {
     border: 1px solid gray;
     padding: 10px;
     width: 25%;
-    height: 350px;
+    height: 360px;
     display: flex;
     justify-content: center;
     margin: 0 20px;
@@ -154,4 +154,94 @@ button:focus {
     border-radius: 15px;
     padding: 10px;
     margin-bottom: 10px;
+}
+.shop-icon {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer {
+    
+    background-color: #f9e0ae;
+}
+.footer-wrapper {
+    display: flex;
+    padding: 20px 25px;
+}
+.footer-logos {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-logos img {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.fas {
+    color: #682c0e;
+    font-size: 20px;
+    
+}
+.fa-phone, .fa-map-marker-alt {
+    margin-bottom: 15px;
+    
+}
+.fab {
+    margin-right: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #682c0e;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+.textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+input {
+    width: 350px;
+    height: 25px;
+    color: #682c0e;
+    border: 2px solid #682c0e;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+textarea {
+    width: 550px;
+    height: 89px;
+    color: #682c0e;
+    border: 2px solid #682c0e;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.submit {
+    border: 2px solid #682c0e;
+    color: #682c0e;
+}
+.submit:focus {
+    background-color: #682c0e;
+    color: #fc8621;
+}
+.footer-bottom {
+    text-align: center;
+    background-color: #ccb68b;
+    border-top: 1px solid #682c0e;
+    height: 60px;
+}
+.footer-bottom p {
+    color: #682c0e;
+    padding-top: 20px;
 }
