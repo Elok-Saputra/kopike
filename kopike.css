@@ -17,6 +17,15 @@ body {
     background-size: cover;
     opacity: 0.85;
 }
+.attribute {
+    position: absolute;
+    right: 20px;
+    color: white;
+    opacity: 0.6;
+    font-size: 11px;
+    font-weight: normal;
+        
+}
 header {
     width: 100%;
     height: 60px;
@@ -33,9 +42,7 @@ header {
     background-color: rgba(252, 134, 33, 0.5);
 }
 .header-list li {
-    
-    padding: 19px 40px;
-     
+    padding: 19px 20px;    
 }
 ul {
     display: flex;
@@ -43,11 +50,12 @@ ul {
 }
 li {
     list-style: none;
+    
     float: left;
     color: #c24914;
     font-size: 20px;
     font-weight: bold;
-      
+    font-family: 'Arial Narrow'; 
 }
 li:hover {
     color: #682c0e;
@@ -61,7 +69,7 @@ li:hover {
 }
 .container {
     text-align: center;
-    padding: 150px 20px;
+    padding: 110px 20px;
 }
 .container h1 {
     font-size: 72px;
@@ -71,6 +79,7 @@ li:hover {
 .container p {
     font-size: 16px;
     color: rgb(255, 255, 255);
+    line-height: 25px;
 }
 .txKopike {
     font-family: cunia;
@@ -78,4 +87,71 @@ li:hover {
 }
 .txProduct {
     color: #fc8621;
+}
+button {
+    background-color: Transparent;
+    
+    border: 2px solid #fc8621;
+    color: #fc8621;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
+button:focus {
+    background-color: #fc8621;
+    border-style: none;
+    color: #682c0e;
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-weight: bold;    
+    background-repeat:no-repeat;        
+    outline:none;
+    box-shadow: 0 5px 5px black;
+}
+.shop {
+    margin-top: 20px;
+}
+.extra-section {
+    padding: 0 20px 50px 20px;
+}
+.extra-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ex-heading {
+    text-align: center;
+    padding: 50px 20px 10px 20px;
+    font-size: 36px;
+    color: #682c0e;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 50px;
+    
+}
+.extra-offers {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 25%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px gray;
+    
+}
+.offer-icon {
+    text-align: center;
+}
+.offer-icon img {
+    width: 190px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
